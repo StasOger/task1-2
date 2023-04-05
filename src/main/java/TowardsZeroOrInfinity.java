@@ -37,7 +37,7 @@ public class TowardsZeroOrInfinity {
     public static void main(String[] args) {
 //Пример
         System.out.println("Пример");
-        getUn(2);
+        getUn(3);
         getUn(5);
         getUn(65);
 

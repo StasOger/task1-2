@@ -19,7 +19,7 @@ public class IpAddress {
         long int32 = (long) (massIpV4[0]*Math.pow(2,24)+massIpV4[1]*Math.pow(2,16)+massIpV4[2]*Math.pow(2,8)+massIpV4[3]);
         System.out.println("IpV4  ->  int32    " + IpV4 + " -> " + int32);
     }
-    public static void int32ToIpV4(long ipaddr) throws UnknownHostException {
+    public static void int32ToIpV4(int ipaddr) throws UnknownHostException {
         byte[] addr = new byte[4];
         addr[0] = (byte) ((ipaddr >> 24) & 0xFF);
         addr[1] = (byte) ((ipaddr >> 16) & 0xFF);
